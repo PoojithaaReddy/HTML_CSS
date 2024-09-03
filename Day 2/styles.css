@@ -20,5 +20,6 @@ ul li{
     list-style-type: none;
     color:aliceblue;
     display: inline-block;
+    padding: 6px 20px;
 }
  
