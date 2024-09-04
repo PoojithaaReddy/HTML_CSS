@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    text-colo
+}
+
+h1 {
+    color: #0040df;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    
+}
+nav ul li {
+    color: white;
+}
+p {
+    font-size: 15.5px;
+}
+
+ul li{
+    list-style-type: none;
+    color:aliceblue;
+    display: inline-block;
+    padding: 8px 20px;
+}
+
+.card img{
+    max-width: 110%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.card {
+    height:500px;
+    width:1525px;
+    border:10px solid gainsboro;
+    padding:10px
+}
+
+.card1 {
+    height:200px;
+    width:1525px;
+    border:10px solid gainsboro;
+    padding:10px
+}
+
+.card2 {
+    height:200px;
+    width:1525px;
+    border:10px solid gainsboro;
+    padding:10px
+}
+
+.card3{
+    height:150px;
+    width:1525px;
+    border:10px solid gainsboro;
+    padding:10px
+}
+
+nav{
+    background-color: black;
+    color: white;
+}
