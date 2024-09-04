@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    color: #0040df;
+}
+
+nav {
+    background-color: #000000;
+    text-align: center;
+    width: 1562px;
+    
+}
+nav ul li {
+    color: white;
+}
+p {
+    font-size: 15.5px;
+}
+
+ul li{
+    list-style-type: none;
+    color:aliceblue;
+    display: inline-block;
+    padding: 8px 20px;
+}
+
+.card img{
+    max-width: 110%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.card {
+    height:500px;
+    width:1525px;
+    border:10px solid gainsboro;
+    padding:10px
+}
+
+.card1{
+    height:200px;
+    width:1505px;
+    border:10px solid gainsboro;
+    padding:10px
+}
+
+.card2{
+    height:200px;
+    width:1525px;
+    border:10px solid gainsboro;
+    padding:10px
+}
+
+.card3{
+    height:150px;
+    width:1525px;
+    border:10px solid gainsboro;
+    padding:10px
+}
+
+nav{
+    background-color: black;
+    color: white;
+    width: 1562px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link{
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+.nav-link:hover{
+    background-color: grey;
+    color: #000;
+    border-radius: 5px;
+}
+
+.card1
+{
+    padding: 20px;
+    background-color: #ffffff;
+}
+.curriculum-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.curriculum-card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    width: 175px;
+    height: 120px;
+    flex-direction: column;
+    text-align: center;
+}
+.card-title {
+    color: #0033cc;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+.card-description {
+    font-size: 13px;
+    color: #333;
+}
