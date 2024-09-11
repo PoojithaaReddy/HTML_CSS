@@ -9,12 +9,31 @@
     <script src="https://kit.fontawesome.com/a898679a28.js" crossorigin="anonymous" defer></script>
 </head>
 <body>
-    <header>
-        <div class="logo"> 
-            <h1>Welcome to the MSIT Program</h1>
-            <p>Your journey to mastering information technology starts here.</p>
-            <button><a href="applied.html">Apply Now</a></button>
-        </div>  
+    <header class="hero-slideshow">
+        <div class="slideshow-container">
+            <div class="slide" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/02/Computer_science_education.png');">
+                <div class="hero-overlay-slide">
+                    <h1><b>Welcome to the MSIT Program</b></h1>
+                    <p>Your journey to mastering information technology starts here.</p>
+                    <a href="applied.html" target="_blank" class="button-slide"><b>Apply Now</b></a>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('https://tse1.mm.bing.net/th?id=OIP.Fp7NpFQKNsbxNAdrERGwwQHaE8&pid=Api&P=0&h=180');">
+                <div class="hero-overlay-slide">
+                    <h1>Explore Our Curriculum</h1>
+                    <p>Discover a program designed to equip you with the latest skills in IT.</p>
+                    <a href="#curriculum" class="button-slide"><b>Learn More</b></a>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('https://sites.gatech.edu/admission-blog/files/2022/07/requirements.jpg');">
+                <div class="hero-overlay-slide">
+                    <h1>Admission Requirements</h1>
+                    <p>Learn the admission requirements to join the program.</p>
+                    <a href="#admission" class="button-slide"><b>Learn More</b></a>
+                </div>
+            </div>
+        </div>
+    </header>
         <nav>
             <ul>
                 <li><a href="#overview"  class="nav_link">Overview</a></li>
@@ -23,7 +42,8 @@
                 <li><a href="#contact"  class="nav_link">Contact Us</a></li>
             </ul>
         </nav>
-    </header>
+
+    
 
     <main>
         <section id="overview">
@@ -49,7 +69,12 @@
                 </article>
             </aside>
         </section>
-
+        <section id="about">
+            <h2>About MSIT</h2>
+            <div>
+                <iframe src="https://www.youtube.com/embed/HLtthrBihlM" frameborder="0"></iframe>
+            </div>
+        </section>
         <section id="curriculum">
             <h2>Curriculum</h2>
             <p>The curriculum covers a wide range of topics, including:</p>
@@ -81,13 +106,6 @@
                
             </ul>
         </section>
-        <section id="video">
-            <h2>Watch the Program Overview</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/JfU4a2qUQEI" 
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>
-            <p>This video provides an in-depth overview of the MSIT program, detailing the curriculum, faculty, and unique learning opportunities available to students.</p>
-        </section>
 
         <section id="admission">
             <h2>Admission Requirements</h2>
@@ -108,6 +126,7 @@
             <p>Phone: (123) 456-7890</p>
         </section>
     </main>
+
     <footer>
         <p>&copy; 2024 University Name. All rights reserved.</p>
         <div>
@@ -117,7 +136,5 @@
             <div class="icon_insta"> <a href="https://www.youtube.com/@msiteducation4356" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-youtube" ></i></a></div>
         </div>
     </footer>
-
-    
 </body>
 </html>
